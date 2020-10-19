@@ -158,15 +158,16 @@ main {
   background-color: #005979;
   width: 27%;
   margin-top: 30px;
+  padding: 15px;
+
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
 }
-
-.col {
-  margin-top: 20px;
+.order .left {
+  padding-left: 20px;
 }
 
 dl {
-  padding: 17px 0;
+  padding: 20px 0;
 }
 
 dt {
@@ -187,7 +188,7 @@ footer {
 
 .order li {
   list-style-position: inside;
-  padding-left: 20px;
+  padding-left: 10px;
   color: white;
   padding-top: 20px;
 }
@@ -199,14 +200,6 @@ footer {
   padding-top: 20px;
 }
 
-.ticks li {
-  list-style-position: inside;
-  padding-left: 20px;
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 15px;
-}
-
 .sub-menu {
   list-style-position: inside;
   padding-left: 30px;
@@ -214,13 +207,26 @@ footer {
 
 .sub-menu-box {
   padding-left: 40px;
-  /* padding-top: 20px; */
 }
 
-.btm {
-  padding-bottom: 20px;
+.ticks li {
+  list-style: none;
+  padding-left: 10px;
+  list-style-position: inside;
+  color: white;
+  padding: 15px 0;
+  padding-left: 20px;
 }
 
-.img {
-  list-style-image: url("./images/img-01.svg");
+.img li:before {
+  content: "";
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  background-image: url("images/check-circle-solid.svg ");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  position: relative;
+  top: 4px;
 }
