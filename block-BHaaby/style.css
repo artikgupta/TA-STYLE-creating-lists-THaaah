@@ -1,0 +1,232 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 38px;
+}
+
+header {
+  padding: 20px 0;
+  background-color: #f96115;
+}
+
+.flex {
+  display: flex;
+}
+
+.unordered {
+  list-style: none;
+}
+
+.unordered li {
+  margin-right: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  background-color: #d4cea7;
+}
+
+.flex-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lists {
+  background-color: #005979;
+  width: 27%;
+  margin-top: 30px;
+  padding: 15px;
+
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
+}
+.order .left {
+  padding-left: 20px;
+}
+
+dl {
+  padding: 20px 0;
+}
+
+dt {
+  margin: 20px 0;
+  font-size: 25px;
+}
+
+dd {
+  line-height: 1.3;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+footer {
+  background-color: black;
+  padding: 25px 0px;
+}
+
+.order li {
+  list-style-position: inside;
+  padding-left: 10px;
+  color: white;
+  padding-top: 20px;
+}
+
+.unorder li {
+  list-style-position: inside;
+  padding-left: 20px;
+  color: white;
+  padding-top: 20px;
+}
+
+.sub-menu {
+  list-style-position: inside;
+  padding-left: 30px;
+}
+
+.sub-menu-box {
+  padding-left: 40px;
+}
+
+.ticks li {
+  list-style: none;
+  padding-left: 10px;
+  list-style-position: inside;
+  color: white;
+  padding: 15px 0;
+  padding-left: 20px;
+}
+
+.img li:before {
+  content: "";
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  background-image: url("images/check-circle-solid.svg ");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  position: relative;
+  top: 4px;
+}
